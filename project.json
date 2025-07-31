@@ -1,12 +1,14 @@
 {
-  "name": "mail",
-  "projectId": "8e05c927-7f5b-48f5-8c8b-3ea7c6d0b118",
+  "name": "AUTO-MALAY BOT",
+  "projectId": "603c0094-22e6-4d6d-835e-fd7fc3d3dd6a",
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "3.1.1",
-    "UiPath.Mail.Activities": "2.2.10",
-    "UiPath.System.Activities": "[25.6.1]"
+    "UiPath.Excel.Activities": "[3.2.0-preview]",
+    "UiPath.Form.Activities": "[25.4.3]",
+    "UiPath.Persistence.Activities": "[1.7.0]",
+    "UiPath.System.Activities": "[25.6.1]",
+    "UiPath.WebAPI.Activities": "1.21.1"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -19,7 +21,7 @@
     "isPausable": true,
     "isAttended": false,
     "requiresUserInteraction": true,
-    "supportsPersistence": false,
+    "supportsPersistence": true,
     "workflowSerialization": "NewtonsoftJson",
     "excludedLoggedData": [
       "Private:*",
@@ -48,7 +50,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "59206c45-0680-41bd-bab0-1dbdb741bd91",
+      "uniqueId": "ea31ceb6-3935-4ba4-ac48-ab0136714e4f",
       "input": [],
       "output": []
     }
